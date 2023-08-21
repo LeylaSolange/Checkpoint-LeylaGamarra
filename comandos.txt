@@ -1,0 +1,33 @@
+94  git remote add origin https://github.com/LeylaSolange/Checkpoint-LeylaGamarra.git
+   95  touch main.js
+   96  touch index.html
+   97  git add -A
+   98  git commit -m "commit 01 de LeylaGamarra"
+   99  git push origin main
+  100  git checkout -b feature
+  101  mkdir Hardware
+  102  mkdir Software
+  103  mkdir SeguridadInformatica
+  104  cd Hardware
+  105  touch resume.txt
+  106  cd ..
+  107  cd Software
+  108  touch resume.txt
+  109  cd ..
+  110  cd SeguridadInformatica
+  111  touch resume.txt
+  112  git add -A
+  113  git push origin feature
+  114  git commit -m "commit 02 de LeylaGamarra"
+  115  git push origin feature
+  116  git checkout main
+  117  mv index.html resumenSoftware.txt
+  118  cd ..
+  119  git checkout feature
+  120  git checkout main
+  121  mv main.js resumenHardware.txt
+  122  mv index.html resumenSoftware.txt
+  123  touch comandos.txt
+  124  git add -A
+  125  git commit -m "commit 03 de LeylaGamarra"
+  126  history
